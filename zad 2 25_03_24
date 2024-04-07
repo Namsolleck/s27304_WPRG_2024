@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+
+<title>zad 2 25 marca</title>
+<style>
+  body{
+    font-family: serif;
+  }
+
+ form{
+  margin: 0 auto;
+    max-width: 500px;
+    
+    
+
+  }
+
+  form, input{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-color:#ccc;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+
+  input[type=button]
+  {
+    width:auto;
+    background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  }
+
+  span{
+    width: 30px;
+    text-align: center;
+    
+  }
+
+
+</style>
+
+<body>
+  
+<form>
+  <label>
+  <input type="email" placeholder="e-mail">
+</label>
+<label>
+  <input type="tel" placeholder="telefon">
+</label>
+<label>
+  <input type="text" placeholder="imie i nazwisko">
+</label>
+
+<input type="button" value="Wyślij">
+</form>
+
+<!--nie rozumiem gdzie użyc span-->
+
+
+</body>
