@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+
+<title>zad 1 8 kwietnia</title>
+
+<style>
+
+.flex-container
+{
+    display: flex;
+
+}
+
+.column
+{
+    width: max-content;
+    margin: 20px;
+}
+
+
+</style>
+
+<body>
+   
+</body>
