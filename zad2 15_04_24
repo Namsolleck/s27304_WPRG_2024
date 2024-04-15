@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$first=1;
+$iloraz=5; 
+$length=5;
+
+echo "Ciag arytmetyczny ";
+echo $first;
+echo " ";
+	
+for($i=2; $i<=$length; $i++)
+{
+	$n=$first+($i-1)*$iloraz;
+    echo $n;
+    echo " ";
+}
+echo "\n";
+
+echo "Ciąg geometryczny ";
+echo $first;
+echo " ";
+
+for($i=2; $i<=$length; $i++)
+{
+	$n=$first*pow($iloraz, ($i-1));	
+    echo $n;
+    echo " ";
+}
+
+
+?>
+
+</body>
+</html>
