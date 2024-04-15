@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$liczba=94516
+while($liczba>9)
+{
+	
+}
+
+//idealnie ma byc 25 a potem 7//
+?>
+
+</body>
+</html>
