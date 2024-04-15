@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$min = 20;
+$max= 5;
+
+if($min>$max)
+{
+	$temp=$min;
+    $min=$max;
+    $max=$temp;
+}
+
+for($min; $min<=$max; $min++)
+{
+	$prime=true;
+    
+	if($min>1)
+    {
+    for($divide=2; $divide<$min; $divide++)
+    {
+		if($min%$divide==0)
+        {
+        $prime=false;
+        break;
+        }
+    }
+    if($prime)
+    {
+    	echo $min;
+        echo " ";
+    }
+    }
+}
+
+
+?>
+
+</body>
+</html>
